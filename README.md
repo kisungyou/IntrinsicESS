@@ -5,14 +5,17 @@ This repository contains code for the numerical experiments in the paper
 > Intrinsic effective sample size for manifold-valued Markov chain Monte Carlo output via kernel discrepancy
 
 The experiments are intentionally sphere-only.  They illustrate the proposed intrinsic kernel effective sample size (ESS) using the Schoenberg-valid kernel on the two-sphere,
+
 $$
 k_\rho(x,y) = \{1 - 2\rho x^\top y + \rho^2\}^{-1/2}, \qquad 0 < \rho < 1.
 $$
 
 This kernel is positive definite on $\mathbb{S}^2$ because it has the Legendre expansion
+
 $$
 k_\rho(x,y) = \sum_{\ell=0}^\infty \rho^\ell P_\ell(x^\top y),
 $$
+
 where  $P_\ell$ are Legendre polynomials.
 
 ## Repository structure
