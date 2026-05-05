@@ -33,7 +33,7 @@ where  $P_\ell$ are Legendre polynomials.
     └── exp2_quick/
 ```
 
-The file `src.py` contains the reusable computational backbone: simulation on `S^2`, exact density evaluation for von Mises--Fisher mixtures, Metropolis--Hastings kernels, kernel ESS estimation, empirical MMD calculations, and plotting helpers.
+The file `src.py` contains the reusable computational backbone: simulation on $\mathbb{S}^2$, exact density evaluation for von Mises--Fisher mixtures, Metropolis--Hastings kernels, kernel ESS estimation, empirical MMD calculations, and plotting helpers.
 
 ## Installation
 
@@ -89,7 +89,7 @@ Notebook:
 notebooks/experiment1_rotation_invariance.ipynb
 ```
 
-This experiment runs one Markov chain on `S^2`, rotates the retained path by independent random rotations, and compares coordinate-wise scalar ESS with intrinsic kernel ESS.  The coordinate-wise ESS changes with the chosen coordinate frame, while the kernel ESS is invariant up to numerical roundoff.
+This experiment runs one Markov chain on $\mathbb{S}^2$, rotates the retained path by independent random rotations, and compares coordinate-wise scalar ESS with intrinsic kernel ESS.  The coordinate-wise ESS changes with the chosen coordinate frame, while the kernel ESS is invariant up to numerical roundoff.
 
 Full manuscript settings:
 
@@ -119,7 +119,7 @@ Notebook:
 notebooks/experiment2_spherical_mixture.ipynb
 ```
 
-This experiment compares a local von Mises--Fisher random-walk Metropolis chain with a broader independence-mixture Metropolis--Hastings chain on a four-component unequal-weight mixture on `S^2`.  It reports intrinsic kernel ESS over multiple kernel scales and compares the estimated long-run risk constant with corrected empirical MMD error against an iid reference sample.
+This experiment compares a local von Mises--Fisher random-walk Metropolis chain with a broader independence-mixture Metropolis--Hastings chain on a four-component unequal-weight mixture on $\mathbb{S}^2$.  It reports intrinsic kernel ESS over multiple kernel scales and compares the estimated long-run risk constant with corrected empirical MMD error against an iid reference sample.
 
 Full manuscript settings:
 
