@@ -1,0 +1,15 @@
+{
+  "accept_rate": 0.73625,
+  "base_kernel_bandwidth": 10,
+  "base_kernel_ess": 123.77834782155853,
+  "base_kernel_gamma0": 1.7245438453995696,
+  "base_kernel_sigma2": 8.359509764433316,
+  "burn": 200,
+  "experiment": "exp1_rotation_invariance",
+  "n_keep": 600,
+  "n_rot": 12,
+  "proposal_kappa": 35.0,
+  "rho": 0.75,
+  "seed": 20260201,
+  "target_kappa": 12.0
+}
